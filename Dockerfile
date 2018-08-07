@@ -13,6 +13,7 @@ RUN apt-get update && \
     xvfb
 
 RUN npm install -g npm@6.2.0
+RUN npm update -g
 
 # versions of local tools
 RUN node -v
